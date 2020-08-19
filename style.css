@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    background: #0F5ef0;
+    padding: 80px 0 0 0;
+    color: white;
+    text-align: center;
+    max-height: 500px;
+}
+
+.logo-img {
+    background-color: #0F5ef0;
+    width: 40px;
+    height: 30px;
+}
+
+.logo-text {
+    width: 80px;
+    height: 10px;
+    margin: 0 0 0 20px;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    padding: 25px 0 0 0;
+    width: 100%;
+}
+
+.navbar-custom ul li {
+    margin: 0 0 0 20px;
+}
+
+.navbar-custom .custom-link {
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-custom .custom-link:hover {
+    color: #000000;
+}
+
+.navbar-custom button {
+    background: #0F5ef0;
+    color: #fff;
+    border: none;
+}
+
+.navbar-custom .active a {
+    color: #000000 !important;
+}
+
+.header-img {
+    height: 500px;
+    width: 480px;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    top: 160px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.header-title {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.header-subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 0 15px 0;
+}
+
+.header-text input {
+    height: 40px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    padding: 10px 15px;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-image: initial;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+.header-text button {
+    border: none;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: -5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.custom-table {
+    position: relative;
+    z-index: 1;
+    bottom: 140px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 4px 3px 15px -2px grey;
+}
+
+.table td {
+    color: gray;
+}
+
+.table .changes {
+    color: green;
+}
+
+.table .buy-btn {
+    color: #75b473;
+    border: none;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    background-color: #E8F8F5;
+}
+
+.table th {
+    background-color: #bbe1fa;
+    color: blue;
+}
+
+.invite-section {
+    padding: 0 0 0 20px;
+}
+
+.invite-btn {
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 60px;
+}
+
+.portfolio {
+    background-color: #0F5ef0;
+    transform: skewY(170deg);
+    padding: 200px 0 150px 0;
+    margin: 120px 0 0 0;
+    color: #fff;
+}
+
+.portfolio .normal-div {
+    transform: skewY(10deg);
+}
+
+.portfolio ul li {
+    font-size: 30px;
+}
+
+.portfolio ul li h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.portfolio ul li h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.portfolio ul p {
+    font-size: 15px;
+}
+
+.portfolio .col-md-4 {
+    background: #75b473;
+}
+
+.reliable {
+    margin: 150px 0 0 0;
+}
+
+.reliable h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 20px 0 80px 0;
+}
+
+.reliable h2 {
+    font-size: 24px;
+}
+
+.reliable p {
+    padding: 0 50px 0 0;
+}
+
+.bank-account {
+    background: #0F5ef0;
+    padding: 20px 0 40px 0;
+    margin: 40px 0 0 0;
+}
+
+.bank-account .account-details {
+    display: flex;
+    width: 100%;
+}
+
+.bank-account h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    padding: 40px 0 40px 0;
+}
+
+.bank-account .account-details .image {
+    text-align: center;
+    width: 33%;
+}
+
+.bank-account .account-details .image h3 {
+    padding: 50px 0 0 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.bank-account .account-details .image:nth-child(-n+2)::after {
+    content: '';
+    width: 150px;
+    height: 8px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    left: 180px;
+}
+
+.bank-account .account-details .image:nth-last-child(1) {
+    padding: 30px 0 0 0;
+}
+
+.footer {
+    background-color: #eff7fd;
+    padding: 50px 0 0 0;
+}
+
+.footer .footer-copyright {
+    background-color: #0F5ef0;
+    padding: 10px;
+    text-align: center;
+    color: thistle;
+}
+
+.footer .footer-content {
+    padding: 20px 0 40px 0;
+}
+
+.footer .footer-copyright h4 {
+    font-size: 20px;
+}
+
+.footer h2 {
+    font-size: 24px;
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 80px 0 0 0;
+        height: 1000px;
+    }
+    .header-text {
+        top: 120px;
+    }
+    .logo-img {
+        background-color: #0F5ef0;
+        width: 30px;
+        height: 20px;
+        margin: 0 0 0 15px;
+    }
+    .navbar-custom button {
+        margin: 0 10px 0 0;
+    }
+    #navbarNavDropdown {
+        background-color: #0F5ef0;
+    }
+    .logo-text {
+        width: 60px;
+        height: 12px;
+        position: relative;
+        right: 100px;
+    }
+    .header-img {
+        height: 250px;
+        width: 240px;
+    }
+    .header-title {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .header-subtitle {
+        font-size: 14px;
+        padding: 0 0 0 0;
+    }
+    .header-text input {
+        height: 30px;
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .header-text button {
+        height: 35px;
+        font-size: 10px;
+    }
+    .custom-table {
+        width: 90%;
+        bottom: 250px;
+        margin: auto;
+        font-size: 10px;
+    }
+    .custom-table table tbody tr td img {
+        display: none;
+    }
+    .table .buy-btn {
+        width: 60px;
+        font-size: 12px;
+        height: 30px;
+    }
+    .invite-section {
+        position: relative;
+        bottom: 150px;
+    }
+    .invite-section h1 {
+        font-size: 24px;
+    }
+    .invite-section p {
+        font-size: 14px;
+        padding: 15px 0 15px 0;
+    }
+    .invite-section img {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .invite-btn {
+        width: 100px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .portfolio {
+        padding: 100px 0 80px 0;
+        margin: 120px 0 0 0;
+    }
+    .portfolio img {
+        width: 100%;
+    }
+    .portfolio ul li {
+        font-size: 24px;
+    }
+    .portfolio ul li h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .portfolio ul li h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .portfolio ul p {
+        font-size: 14px;
+    }
+    .reliable {
+        margin: 150px 0 0 0;
+    }
+    .reliable img {
+        width: 100%;
+    }
+    .reliable h1 {
+        font-size: 24px;
+        padding: 10px 0 40px 0;
+    }
+    .reliable h2 {
+        font-size: 20px;
+    }
+    .reliable p {
+        padding: 0 0px 0 0;
+    }
+    .bank-account {
+        padding: 20px 0 40px 0;
+        margin: 40px 0 0 0;
+    }
+    .bank-account .account-details {
+        width: 100%;
+    }
+    .bank-account h1 {
+        font-size: 24px;
+        padding: 40px 0 40px 0;
+    }
+    .bank-account .account-details img {
+        width: 60px;
+        height: 80px;
+    }
+    .bank-account .account-details .image h3 {
+        padding: 50px 0 0 0;
+        font-size: 12px;
+    }
+    .bank-account .account-details .image:nth-child(-n+2)::after {
+        width: 40px;
+        height: 5px;
+        bottom: 115px;
+        left: 55px;
+    }
+    .bank-account .account-details .image:nth-child(2)::after {
+        bottom: 130px;
+    }
+    .bank-account .account-details .image:nth-last-child(1) {
+        padding: 0 0 0 0;
+    }
+    .footer {
+        padding: 50px 0 0 0;
+    }
+    .footer img {
+        width: 200px;
+        height: 70px;
+    }
+    .footer .footer-copyright {
+        padding: 10px;
+    }
+    .footer .footer-content {
+        padding: 20px 0 40px 0;
+    }
+    .footer .footer-copyright h4 {
+        font-size: 12px;
+    }
+    .footer h2 {
+        font-size: 16px;
+    }
+}
